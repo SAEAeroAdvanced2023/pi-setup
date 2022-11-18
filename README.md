@@ -1,1 +1,2 @@
 # pi-setup
+Script and related files for setting up the Raspberry Pi 4b. Meant for Raspberry Pi OS 11 (Bullseye), but will probably work on similar Debian based OSes. Connect the pi to the internet, clone this repo and `cd` into it, and run: `sudo chmod 777 pi-setup.sh && sudo pi-setup.sh`. If you're at Concordia and you cannot connect to their wifi to perform setup (WPA-Enterprise s), copy the repo onto a flash drive or something and run `sudo chmod 777 concordia-wifi.sh && sudo concordia-wifi.sh <Wifi-Username> <Wifi-Password>` first, then reboot.
